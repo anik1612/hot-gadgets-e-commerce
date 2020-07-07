@@ -1,4 +1,45 @@
+.container{
+    margin-bottom: 50px;
+}
+
 .nav-item a{
     color: dimgray;
     font-weight: 500;
+}
+
+.product-banner{
+    background-image: url(/images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px left 0px;
+}
+
+.bg-2{
+    background-image: url(/images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-indicators .active{
+    background-image: linear-gradient(45deg, #F47C00, #FF8319);
+    width: 35px;
+    height: 10px;
+}
+
+.carousel-indicators li{
+    background-image: linear-gradient(dimgray,dimgray);
+    width: 13px;
+    height: 10px;
+}
+
+.carousel-indicators{
+    bottom: -35px;
+}
+
+.buy-now-button{
+    background-image: linear-gradient(black,black);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
 }
