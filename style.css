@@ -1,5 +1,9 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .nav-item a{
@@ -7,7 +11,7 @@
     font-weight: 500;
 }
 
-.product-banner{
+/* .product-banner{
     background-image: url(/images/bg-2.png);
     background-repeat: no-repeat;
     background-position: bottom 0px left 0px;
@@ -17,6 +21,16 @@
     background-image: url(/images/bg-1.png);
     background-repeat: no-repeat;
     background-position: center;
+} */
+
+.bg-gray{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.product-banner{
+    margin-bottom: 70px;
 }
 
 .carousel-indicators .active{
@@ -32,7 +46,7 @@
 }
 
 .carousel-indicators{
-    bottom: -35px;
+    bottom: -49px;
 }
 
 .buy-now-button{
@@ -43,3 +57,33 @@
     border-radius: 5px;
     font-weight: 600;
 }
+
+.smartphone-text button{
+    color:  #FF8319;
+    font-weight: 600;
+    background-color: Transparent;
+    border: none;
+    outline-style: none;
+}
+
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: transparent;
+    padding-top: 0;
+}
+
+.card-body{
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.card-img-top{
+    padding-top: 20px;
+}
+
