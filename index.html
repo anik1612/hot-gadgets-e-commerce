@@ -21,7 +21,14 @@
 
 
 
-<body>
+<body onload="myFunction()">
+    <!-- preloader -->
+    <div id="preloader">
+
+    </div>
+    <!-- preloader -->
+
+
     <!-- navbar section start here -->
     <header>
         <div class="container">
@@ -258,15 +265,16 @@
         </div>
     </section>
     <!-- categories part end here -->
-    
+
 
 
     <!-- footer part start from here -->
     <footer>
-        <p class="text-center">©Hot Gadget E-Commerce Company Ltd. All rights reserved by <span class="text-success">Anik Sarker</span></p>
+        <p class="text-center">©Hot Gadget E-Commerce Company Ltd. All rights reserved by <span
+                class="text-success">Anik Sarker</span></p>
     </footer>
     <!-- footer part end here -->
-    
+
 
 
     <!-- bootstrap javascript tag -->
@@ -280,6 +288,13 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
+    <!-- onloader javascript -->
+    <script>
+        var preloader = document.getElementById('preloader');
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
