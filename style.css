@@ -2,6 +2,10 @@ body{
     background-color: rgb(247, 247, 247);
 }
 
+section{
+    margin-bottom: 100px;   
+}
+
 .container{
     margin-bottom: 30px;
 }
@@ -10,18 +14,6 @@ body{
     color: dimgray;
     font-weight: 500;
 }
-
-/* .product-banner{
-    background-image: url(/images/bg-2.png);
-    background-repeat: no-repeat;
-    background-position: bottom 0px left 0px;
-}
-
-.bg-2{
-    background-image: url(/images/bg-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
 .bg-gray{
     background-color: lightgray;
@@ -66,6 +58,10 @@ body{
     outline-style: none;
 }
 
+.smartphone-text{
+    margin-bottom: 25px;
+}
+
 .card{
     border-radius: 15px;
     border: none;
@@ -87,3 +83,24 @@ body{
     padding-top: 20px;
 }
 
+.cat-header-text{
+    padding-bottom: 5px;
+    border-bottom: 5px solid #F47C00;
+}
+
+.box{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+.categories-border {
+    border-bottom: 7px solid  #FFBB24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+} 
+
+.category-item {
+    padding:  20px 20px;
+}
